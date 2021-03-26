@@ -1,8 +1,11 @@
+import './assets/scss/App.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+console.log(
+  `👋 Hey there! Aren't you a curious one? Thanks for taking the time to read my cover letter, and inspecting my code. I hope you've enjoyed reading it as much as I enjoyed making it. To see the source code visit the github link at the bottom of the page.`
+);
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,8 +13,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
